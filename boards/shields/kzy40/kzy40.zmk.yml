@@ -1,0 +1,14 @@
+
+file_format: "1"
+id: kzy40
+name: kzy40
+type: shield
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - kzy40_left
+  - kzy40_right

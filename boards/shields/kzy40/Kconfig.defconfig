@@ -1,0 +1,14 @@
+
+if SHIELD_KZY40_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "kzy40"
+
+endif
+
+if SHIELD_KZY40_LEFT || SHIELD_KZY40_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
