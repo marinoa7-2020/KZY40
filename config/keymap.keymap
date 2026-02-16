@@ -15,19 +15,13 @@
 
 /* マウス移動の速度設定 */
 &mmv {
-    time-to-max-speed-ms = <500>;    /* 速度が上がりきるまでの時間 */
-    acceleration-exponent = <1>;     /* 1=等速、2=しっかり加速 */
-    /* ここを追加！ */
-    max-speed-mhz = <20>;           /* ここを 10〜40 くらいで調整してください */
-    delay-ms = <0>;
+    time-to-max-speed-ms = <400>;     /* 最大速に達するまでの時間（短いほどすぐ速くなる） */
+    acceleration-exponent = <2>;     /* 1=等速、2=加速あり */
 };
 
 /* スクロールの速度設定 */
 &msc {
     time-to-max-speed-ms = <500>;
-    /* ここを追加！ */
-    max-speed-mhz = <10>;           /* スクロールが速すぎたらここを下げます */
-    delay-ms = <0>;
 };
 
 / {
