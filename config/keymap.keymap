@@ -18,17 +18,14 @@
 /* マウス移動の速度設定 */
 
 &mmv {
-    time-to-max-speed-ms = <100>;     /* 最大速に達するまでの時間（短いほどすぐ速くなる） */
+    time-to-max-speed-ms = <300>;     /* 最大速に達するまでの時間（短いほどすぐ速くなる） */
     acceleration-exponent = <2>;     /* 1=等速、2=加速あり */
     trigger-period-ms = <6>;
 };
 
 /* スクロールの速度設定 */
 
-&msc {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <2>;
-};
+&msc { time-to-max-speed-ms = <400>; };
 
 / {
     keymap {
