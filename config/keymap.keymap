@@ -6,22 +6,28 @@
 &lt {
     tapping-term-ms = <180>;
     quick-tap-ms = <0>;
+    flavor = "tap-preferred";
 };
 
 &mt {
     tapping-term-ms = <300>;
     quick-tap-ms = <0>;
+    flavor = "tap-preferred";
 };
 
 /* マウス移動の速度設定 */
+
 &mmv {
-    time-to-max-speed-ms = <50>;     /* 最大速に達するまでの時間（短いほどすぐ速くなる） */
+    time-to-max-speed-ms = <100>;     /* 最大速に達するまでの時間（短いほどすぐ速くなる） */
     acceleration-exponent = <2>;     /* 1=等速、2=加速あり */
+    trigger-period-ms = <6>;
 };
 
 /* スクロールの速度設定 */
+
 &msc {
     time-to-max-speed-ms = <500>;
+    acceleration-exponent = <2>;
 };
 
 / {
@@ -39,10 +45,10 @@
 
         layer_1 {
             bindings = <
-&none           &none  &none  &kp LBKT             &kp RBKT          &kp END   &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp ESCAPE
-&kp TAB         &none  &none  &kp SEMICOLON        &kp SINGLE_QUOTE  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN  &mmv MOVE_RIGHT
+&none           &none  &none  &kp LBKT             &kp RBKT          &trans    &mkp MB4        &msc SCRL_UP    &mkp MB5        &kp ESCAPE
+&kp TAB         &none  &none  &kp SEMICOLON        &kp SINGLE_QUOTE  &trans    &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN  &mmv MOVE_RIGHT
 &kp LEFT_SHIFT  &none  &none  &kp INTERNATIONAL_1  &kp NUHS          &trans    &trans          &msc SCRL_DOWN  &trans          &kp RIGHT_SHIFT
-&none           &none  &none  &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &none           &none
+&kp LCTRL       &none  &none  &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &kp DEL         &none
             >;
         };
 
