@@ -22,7 +22,7 @@
     acceleration-exponent = <1>;     /* 1=等速、2=加速あり、3=急加速 */
     delay-ms = <8>;
     trigger-period-ms = <6>;
-    max-speed-pels-per-tickz = <20>;　/* 10～30の間で調整、早い場合は15程度に下げる（デフォルト10前後）*/
+    max-speed-pels-per-tick = <20>;  /* 10～30の間で調整、早い場合は15程度に下げる（デフォルト10前後）*/
 };
 
 /* スクロールの速度設定 */
