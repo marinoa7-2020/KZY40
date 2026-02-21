@@ -4,13 +4,13 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <180>;
+    tapping-term-ms = <150>;
     quick-tap-ms = <0>;
     flavor = "tap-preferred";
 };
 
 &mt {
-    tapping-term-ms = <300>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <0>;
     flavor = "tap-preferred";
 };
@@ -19,7 +19,7 @@
 &mmv {
     time-to-max-speed-ms = <30>;     /* 最大速に達するまでの時間（小さいほど速くなる） */
     acceleration-exponent = <6>;     /* 加速の伸び、大きくすると最高速が上がる */
-    trigger-period-ms = <4>;   /* 小さくすると動きが滑らかに */
+    trigger-period-ms = <2>;   /* 小さくすると動きが滑らかに */
     };
 
 /* スクロールの速度設定 */
