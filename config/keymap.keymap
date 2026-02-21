@@ -32,7 +32,7 @@
     behaviors {
         mmv_f: mouse_move_fast {
             compatible = "zmk,behavior-mouse-move";
-            label = "MOUSE_MOVE_FAST";-
+            label = "MOUSE_MOVE_FAST";
             #binding-cells = <1>;
             time-to-max-speed-ms = <40>;   /* 爆速で最高速へ */
             acceleration-exponent = <4>;  /* 加速倍率を極限までアップ */
