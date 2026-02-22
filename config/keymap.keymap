@@ -17,8 +17,8 @@
 
 /* マウス移動の速度設定 */
 &mmv {
-    time-to-max-speed-ms = <100>;     /* 最大速に達するまでの時間（小さいほど速くなる） */
-    acceleration-exponent = <4>;     /* 加速の伸び、大きくすると最高速が上がる */
+    time-to-max-speed-ms = <50>;     /* 最大速に達するまでの時間（小さいほど速くなる） */
+    acceleration-exponent = <5>;     /* 加速の伸び、大きくすると最高速が上がる */
     trigger-period-ms = <4>;   /* 小さくすると動きが滑らかに */
     };
 
