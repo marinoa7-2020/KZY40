@@ -42,10 +42,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC         &none  &none  &kp LBKT             &kp RBKT          &kp END   &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp DELETE
-&kp TAB         &none  &none  &kp SEMICOLON        &kp SINGLE_QUOTE  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT
-&kp LEFT_SHIFT  &none  &none  &kp INTERNATIONAL_1  &kp NUHS          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp RIGHT_SHIFT
-&kp LCTRL       &none  &none  &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &kp DEL          &none
+&kp ESC         &none  &kp EXCLAMATION  &kp LBKT             &kp RBKT          &kp END   &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp DELETE
+&kp TAB         &none  &kp QUESTION     &kp SEMICOLON        &kp SINGLE_QUOTE  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT
+&kp LEFT_SHIFT  &none  &none            &kp INTERNATIONAL_1  &kp NUHS          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp RIGHT_SHIFT
+&kp LCTRL       &none  &none            &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &kp DEL          &none
             >;
         };
 
