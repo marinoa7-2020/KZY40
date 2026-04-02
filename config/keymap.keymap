@@ -45,7 +45,7 @@
 &kp ESC         &none  &kp EXCLAMATION  &kp LBKT             &kp RBKT          &kp END   &mkp MB4        &msc SCRL_UP    &mkp MB5         &kp DELETE
 &kp TAB         &none  &kp QUESTION     &kp SEMICOLON        &kp SINGLE_QUOTE  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT
 &kp LEFT_SHIFT  &none  &none            &kp INTERNATIONAL_1  &kp NUHS          &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp RIGHT_SHIFT
-&kp LCTRL       &none  &none            &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &kp DEL          &none
+&kp LCTRL       &none  &kp LEFT_ALT     &none                &none             &mkp MB1  &mkp MB2        &mkp MB3        &kp DEL          &none
             >;
         };
 
@@ -54,7 +54,7 @@
 &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7    &kp NUMBER_8   &kp NUMBER_9    &kp NUMBER_0
 &kp TAB         &kp F2          &kp F3          &kp F4        &kp F5        &kp F6        &kp F7          &kp F8         &kp F9          &kp F10
 &kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &kp HOME      &kp LEFT_ARROW  &kp UP_ARROW   &kp DOWN_ARROW  &kp RIGHT
-&kp LCTRL       &none           &none           &none         &none         &kp END       &kp PAGE_UP     &kp PAGE_DOWN  &trans          &kp RIGHT_SHIFT
+&kp LCTRL       &none           &kp LEFT_ALT    &none         &none         &kp END       &kp PAGE_UP     &kp PAGE_DOWN  &kp RIGHT_ALT   &kp RIGHT_SHIFT
             >;
         };
 
